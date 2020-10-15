@@ -16,7 +16,7 @@ function getHomeView(casesSummary) {
         type: "header",
         text: {
           type: "plain_text",
-          text: "Worldwide cases overview",
+          text: ":tada: Worldwide cases overview",
           emoji: true,
         },
       },
@@ -25,7 +25,7 @@ function getHomeView(casesSummary) {
         fields: [
           {
             type: "mrkdwn",
-            text: "*New cases*",
+            text: ":white_circle: *New cases*",
           },
           {
             type: "plain_text",
@@ -33,7 +33,7 @@ function getHomeView(casesSummary) {
           },
           {
             type: "mrkdwn",
-            text: "*Total confirmed*",
+            text: ":white_circle: *Total confirmed*",
           },
           {
             type: "plain_text",
@@ -46,7 +46,7 @@ function getHomeView(casesSummary) {
         fields: [
           {
             type: "mrkdwn",
-            text: "*New deaths*",
+            text: ":red_circle: *New deaths*",
           },
           {
             type: "plain_text",
@@ -54,7 +54,7 @@ function getHomeView(casesSummary) {
           },
           {
             type: "mrkdwn",
-            text: "*Total deaths*",
+            text: ":red_circle: *Total deaths*",
           },
           {
             type: "plain_text",
@@ -67,7 +67,7 @@ function getHomeView(casesSummary) {
         fields: [
           {
             type: "mrkdwn",
-            text: "*New recovered*",
+            text: ":white_check_mark: *New recovered*",
           },
           {
             type: "plain_text",
@@ -75,7 +75,7 @@ function getHomeView(casesSummary) {
           },
           {
             type: "mrkdwn",
-            text: "*Total recovered*",
+            text: ":white_check_mark: *Total recovered*",
           },
           {
             type: "plain_text",
@@ -127,35 +127,35 @@ function getSlashCommandBlocks(top5summary) {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `${top5summary[0].Country}: ${top5summary[0].TotalConfirmed}`,
+        text: `:one: *${top5summary[0].Country}*: ${top5summary[0].TotalConfirmed}`,
       },
     },
     {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `${top5summary[1].Country}: ${top5summary[1].TotalConfirmed}`,
+        text: `:two: *${top5summary[1].Country}*: ${top5summary[1].TotalConfirmed}`,
       },
     },
     {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `${top5summary[2].Country}: ${top5summary[2].TotalConfirmed}`,
+        text: `:three: *${top5summary[2].Country}*: ${top5summary[2].TotalConfirmed}`,
       },
     },
     {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `${top5summary[3].Country}: ${top5summary[3].TotalConfirmed}`,
+        text: `:four: *${top5summary[3].Country}*: ${top5summary[3].TotalConfirmed}`,
       },
     },
     {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `${top5summary[4].Country}: ${top5summary[4].TotalConfirmed}`,
+        text: `:five: *${top5summary[4].Country}*: ${top5summary[4].TotalConfirmed}`,
       },
     },
   ];
