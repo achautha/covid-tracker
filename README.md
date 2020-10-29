@@ -31,18 +31,19 @@ Example Slack app to track COVID19 cases worldwide.
 
 ## Next steps
 
-### Explore these platform features
+### 1. Explore these platform features
 
 - Shortcut and Modals
 - Interactivity
 - Link Previews
 
-### App distribution
+### 2. App distribution
 
-### Publish to app directory
+### 3. Publish to app directory
 
 ## Best practices
 
-- Use Granular Bot Permissions.
-- Acknowledge events comming from slack in 3 seconds or Use response_url
+- Use Granular Bot Permissions and bot tokens as much as possible.
+- Acknowledge events comming from slack in 3 seconds or Use `response_url`
 - Understand API rate limits.
+- Use interactive blocks instead of plain text messages.
