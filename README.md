@@ -25,7 +25,14 @@ Example Slack app to track COVID19 cases worldwide.
 
 ### 1. Create a Slack app
 
+- https://api.slack.com/apps
+- Add Scopes.
+- Install app in development workspace.
+
 ### 2. Setup a bolt project
+
+- Install node/npm
+- Install `@slack/bolt` npm dependency
 
 ### 3. Slash command
 
