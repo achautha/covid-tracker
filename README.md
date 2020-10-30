@@ -21,12 +21,14 @@ Example Slack app to track COVID19 cases worldwide.
 - **Slash command** `/covid-tracker top5` to list top 5 countries by reported cases
 - **AppHome**: Show worldwide cases summary on app's Home tab
 
-## Slash command
+## Implementation
+
+### 1. Slash command
 
 - Create slash command `/covid-tracker-24 top5` in app configuration page.
 - Implement `app.command` code.
 
-## App home
+### 2. App home
 
 - Subscribe to `app_home_opened` event in app configuration page.
 - Implement `app.event` code.
