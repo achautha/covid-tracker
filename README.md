@@ -5,12 +5,7 @@ Example Slack app to track COVID19 cases worldwide.
 ## Pre-requisites
 
 - Familiarity with Slack and Slack apps
-- Javascript
-
-## Features
-
-- **Slash command** `/covid-tracker top5` to list top 5 countries by reported cases
-- **AppHome**: Show worldwide cases summary on app's Home tab
+- Basic knowlege of javascript/node.
 
 ## Tools and Technologies
 
@@ -21,15 +16,22 @@ Example Slack app to track COVID19 cases worldwide.
 - [Ngrok](https://ngrok.com/): To create a public URL and tunnel requests to your own development environment
 - [Covid19 public API](https://api.covid19api.com/summary)
 
+## Features
+
+- **Slash command** `/covid-tracker top5` to list top 5 countries by reported cases
+- **AppHome**: Show worldwide cases summary on app's Home tab
+
 ## Slash command
 
-`/covid-tracker-24 top5`
+- Create slash command `/covid-tracker-24 top5` in app configuration page.
+- Implement `app.command` code.
 
 ## App home
 
-- Event API : `app_home_opened` event
+- Subscribe to `app_home_opened` event in app configuration page.
+- Implement `app.event` code.
 
-## Next steps
+## Next steps ?
 
 ### 1. Explore these platform features
 
