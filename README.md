@@ -23,12 +23,16 @@ Example Slack app to track COVID19 cases worldwide.
 
 ## Implementation
 
-### 1. Slash command
+### 1. Create a Slack app
+
+### 2. Setup a bolt project
+
+### 3. Slash command
 
 - Create slash command `/covid-tracker-24 top5` in app configuration page.
 - Implement `app.command` code.
 
-### 2. App home
+### 4. App home
 
 - Subscribe to `app_home_opened` event in app configuration page.
 - Implement `app.event` code.
